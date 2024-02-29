@@ -8,16 +8,20 @@
         body {
             margin: 0;
             font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
 
         header {
             text-align: center;
             padding: 20px;
-            background-color: #f0f0f0;
+            background-color: #f4d99b;
         }
 
         main {
             padding: 20px;
+            flex: 1; /* Grow to fill available space */
         }
 
         .image-container {
@@ -25,6 +29,8 @@
             justify-content: center;
             align-items: center;
             flex-wrap: wrap;
+            background-color: var(--image-container-bg, #fbe5a5); /* Default color */
+            padding: 20px; /* Add padding to the image container */
         }
 
         img {
@@ -35,12 +41,13 @@
         footer {
             text-align: center;
             padding: 10px;
-            background-color: #333;
-            color: #fff;
+            background-color: #43433d;
+            color: #f5cd90;
+            margin-top: auto; 
         }
 
         footer a {
-            color: #fff;
+            color: #f5cd90;
             text-decoration: none;
         }
     </style>
@@ -53,9 +60,9 @@
 
     <main>
         <div class="image-container">
-            <img src="seattlebefore.jpg" alt="Image 1">
-            <img src="seattlenow.jpg" alt="Image 2">
-            <img src="seattlefuture.jpg" alt="Image 3">
+            <img src="seattlebefore.jpg" alt="Seattle Before - Image 1">
+            <img src="seattlenow.jpg" alt="Seattle Now - Image 2">
+            <img src="seattlefuture.jpg" alt="Seattle Future - Image 3">
         </div>
     </main>
 
@@ -65,4 +72,3 @@
 
 </body>
 </html>
-

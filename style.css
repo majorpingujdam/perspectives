@@ -1,11 +1,37 @@
 body {
     margin: 0;
     overflow: hidden;
+    font-family: 'Arial', sans-serif;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh; /* Ensure the container takes at least the full viewport height */
 }
 
-h1 {
+header {
     text-align: center;
+    padding: 20px;
+    background-color: #e4b492;
+    border-bottom: 2px solid #ccc;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #e7c289;
+    padding: 20px;
+}
+
+.content {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
 img {
@@ -16,6 +42,7 @@ img {
     object-fit: contain;
     display: block;
     margin: 0 auto;
+    border: 2px solid #ccc; /* Border for the image */
 }
 
 .triangle {
@@ -26,33 +53,49 @@ img {
 }
 
 .triangle1 {
-    top: 17%;
-    left: 17%;
+    top: 20.5%;
+    left: 18.5%;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 15px solid rgb(151, 255, 151);
 }
 
 .triangle2 {
-    top: 44%;
-    right: 18%;
+    top: 43%;
+    right: 19.5%;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 15px solid rgb(151, 255, 151);
 }
 
 .triangle3 {
-    top: 49%;
-    left: 13%;
+    top: 49.2%;
+    left: 15%;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 15px solid rgb(151, 255, 151);
 }
 
 .triangle4 {
-    top: 33%;
-    left: 29.5%;
+    top: 32.5%;
+    left: 30.7%;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     border-bottom: 15px solid rgb(151, 255, 151);
 }
+
+.sidebar-right {
+    flex: 1;
+    background-color: #e7c289;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    margin-top: auto; 
+}
+
+
