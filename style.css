@@ -1,7 +1,7 @@
 body {
     margin: 0;
     overflow: hidden;
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Garamond', sans-serif;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -55,33 +55,33 @@ img {
 .triangle1 {
     top: 20.5%;
     left: 19.5%;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 15px solid rgb(177, 252, 177);
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 15px solid rgb(49, 233, 49);
 }
 
 .triangle2 {
     top: 43.5%;
     right: 20%;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 15px solid rgb(177, 252, 177);
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 15px solid rgb(49, 233, 49);
 }
 
 .triangle3 {
     top: 48.2%;
     left: 15%;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 15px solid rgb(177, 252, 177);
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 15px solid rgb(49, 233, 49);
 }
 
 .triangle4 {
     top: 34%;
     left: 30.9%;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 15px solid rgb(177, 252, 177);
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 15px solid rgb(49, 233, 49);
 }
 
 .sidebar-right {
